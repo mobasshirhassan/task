@@ -10,6 +10,9 @@
   height: 780px;
   border: 2px solid white;
 }
+.new-row {
+  margin-left: 0px;
+}
 .description img {
   width: 25px;
   border-radius: 50%;
@@ -29,29 +32,49 @@
 .advanced h2 {
   color: rgb(22, 139, 185);
   margin-left: 38px;
+  margin-top: -10px;
 }
+
 .text-rate h6 {
   color: white;
   margin-left: 38px;
   margin-bottom: 50px;
 }
 
-.text-rate2 h4 {
+.text-rate h4 {
   color: white;
   text-align: right;
-  margin-bottom: 40px;
+  top: inherit;
 }
 .checkbox {
   color: white;
-  margin-top: 20px;
   margin-left: 30px;
+}
+
+.payment-mode .pic1 img {
+  width: 50px;
+
+  margin-left: 0px;
+}
+.payment-mode .pic2 img {
+  width: 50px;
+  margin-top: 17px;
+  margin-left: 0px;
+}
+
+.payment-mode .pic3 img {
+  margin-left: 0px;
+  width: 50px;
+  margin-top: 17px;
+  float: inline;
+  margin-right: 18px;
 }
 .button1 {
   color: rgb(22, 139, 185);
   background-color: rgb(7, 7, 7);
   border-style: hidden;
   position: absolute;
-  bottom: 100px;
+  bottom: 160px;
   right: 550px;
 }
 .button2 {
@@ -63,20 +86,22 @@
   border-radius: 10px;
   position: absolute;
   right: 100px;
-  bottom: 100px;
+  bottom: 160px;
 }
 
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-top: -20px;
+  padding-left: 135px;
+  margin-bottom: 25px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 18px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  box-sizing: border-box;
 }
 
 /* Hide the browser's default checkbox */
@@ -98,6 +123,7 @@
   background-color: rgb(2, 2, 2);
   border-style: solid;
   margin-right: 30px;
+  margin-left: 15px;
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -128,22 +154,4 @@
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-}
-.Advanced .checker {
-  margin: 30px;
-}
-
-.text-rate2 .pic1 img {
-  width: 50px;
-  margin-top: 10px;
-}
-.text-rate2 .pic2 img {
-  width: 50px;
-  margin-top: 10px;
-}
-.text-rate2 .pic3 img {
-  width: 50px;
-  margin-top: 10px;
-  float: inline;
-  margin-right: 5px;
 }
